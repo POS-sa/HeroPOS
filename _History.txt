@@ -1,0 +1,202 @@
+HeroPOS - Revision History
+==========================
+
+
+Version 2.1013.01 (2013/05/28) - Kotie Smit
+-------------------------------------------------------------------------------
+Bug Fixes
+- Included schema update in the exe (old schema used - 
+  missing forregn currency field in departments table)
+
+
+Version 2.1013.01 (2013/05/25) - Kotie Smit
+-------------------------------------------------------------------------------
+Improvements:
+- Added report for forreign currency
+
+Bug Fixes
+- New table getting name previously named table
+
+
+Version 2.1012.03 (2013/04/11) - Kotie Smit
+-------------------------------------------------------------------------------
+Improvements:
+- Fixed: After Item transfer a table was showing up x2 on table screen.
+- Fixed: After Split bill a table was showing up x2 on table screen.
+
+Bug Fixes
+
+
+To do:
+- Report for euro conversion
+
+
+Version 2.1012.03 (2013/04/11) - Kotie Smit
+-------------------------------------------------------------------------------
+Improvements:
+
+Bug Fixes
+- Fixed disappearing table name when doing a Item transfer
+- Fixed: After Item transfer a table was showing up x2 on table screen.
+- Fixed: After a split bill, on a table without a name - the table would get a name of -1
+- After a change waiter, the text "From waiter:xxx" on the button was missing.
+- Fixed fonts on various screens
+
+To do:
+- Report for euro conversion
+
+Version 2.1012.02 (2013/04/11) - Kotie Smit
+-------------------------------------------------------------------------------
+Improvements:
+- Added a database update function. This will update the current database to the structure of the snapshot supplied within the exe
+- Conversion rate is now recorded per sale in the sales journal
+
+To do:
+- Report for euro conversion
+
+Version 2.1012.01 (2013/04/11) - Kotie Smit
+-------------------------------------------------------------------------------
+Improvements:
+- End-of-day Report to print slip printer
+- Reprint is now a manager function
+- Added "Process_Running" flag to some buttons and functions, allso added it to a timer to release it after 
+  2 seconds if it was not released by the calling method/button
+
+Bug Fixes:
+- Moved all 28 different place where sale total and rounding is calculated to one method
+- Fixed drawer kicking with first tender - now waits for a change value of 0  or more
+
+Version 2.00.1012 (2013/03/22) - Kotie Smit
+-------------------------------------------------------------------------------
+Improvements:
+- Kitchen message button on bar screen
+- Made footer of pro foma invoice bold
+- removed extra blank line after modifier on kitchen printer
+- Fixed Daly & Trade analylis to in clude wastage
+- Limit Bill prints
+- Limit Reprints
+- Added function to name a table
+- Added All Void function
+- Limited user access to "Change Waiter"
+- Conversion message on bills
+
+
+Bug Fixes:
+- Included code to clear tilldata when user loggs in and open a table
+- Allow selected item to be discounted
+- Recalculate discounts
+- Fixed Discount amt and percentage on Trade analysis
+- Fixed wastage to deduct and not to increase stock
+- Fixed Kithen Printer consolidation issue
+
+
+Version 2.00.1005 (2012/07/27) - Raymond Kruger
+-------------------------------------------------------------------------------
+Improvements:
+- Removed the Zoom button from the Split bills
+- Renamed "Cheque" to "Voucher", and amended the code accordingly
+- Renamed "Ullage" to "Wastage", and amended the code accordingly
+- Renamed "Rmtd" to "Return Item", and amended the code accordingly
+- Removed Apro's button
+
+Bug Fixes:
+- None
+
+Known Issues:
+- None
+
+Parked/No Solution:
+- None
+
+
+Version 2.00.1004 (2012/07/23) - Raymond Kruger
+-------------------------------------------------------------------------------
+Improvements:
+- Modified the front of house functionality panel/screen top bar to correct the 
+  overrun of characters into a second line
+- Changed the font on the Bar and Waitress screens
+- Renamed the "Amt" button to "Price O/V", and amended the code accordingly
+- Adding a "Price O/V" button on the Barman screen
+
+Bug Fixes:
+- None
+
+Known Issues:
+- None
+
+Parked/No Solution:
+- None
+
+
+Version 2.00.1003 (2012/04/16) - Raymond Kruger
+-------------------------------------------------------------------------------
+Improvements:
+- Image modified to reflect HeroPOS for:
+      System Data Clear
+      Recalculate Debtor Balances
+      Recalculate Avarage Cost
+      End of Day Run
+      Recipe Cost Updater
+      Recalculate Sale Consumption
+      Master Replication
+      Recalculate Supplier Balances
+- Removed "Total" value from the "Change" bar (SIGN-ON SCREEN)
+- Subtotal Button – expanded value label and resized subtotal label to make 
+  space where cents are lost when value grows beyond 1000
+- Fixed Cents value box where it didn't properly overlapped the Rand value box
+- Added keypad to a scale item when the scale is not installed
+
+Bug Fixes:
+- None
+
+Known Issues:
+- Adding Amount button
+
+Parked/No Solution:
+- None
+
+
+Version 2.00.1002 (2012/04/11) - Raymond Kruger
+-------------------------------------------------------------------------------
+Improvements:
+- Modified the manual input for a scale item to highlight the text when the scale interface load
+- Modified the manual input for a scale item to only accept numbers
+
+Bug Fixes:
+- None
+
+Known Issues:
+- None
+
+Parked/No Solution:
+- None
+
+
+Version 2.00.1001 (2012/04/06) - Raymond Kruger
+-------------------------------------------------------------------------------
+Improvements:
+- Allowing for manual input for a scale item when the scale is not installed
+
+Bug Fixes:
+- None
+
+Known Issues:
+- None
+
+Parked/No Solution:
+- None
+
+
+Version 2.00.1000 (2012/03/29) - Raymond Kruger
+-------------------------------------------------------------------------------
+Improvements:
+- Rebranding of product to HeroPOS
+
+Bug Fixes:
+- None
+
+Known Issues:
+- None
+
+Parked/No Solution:
+- None
